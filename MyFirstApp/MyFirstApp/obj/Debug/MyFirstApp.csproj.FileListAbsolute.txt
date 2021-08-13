@@ -1,0 +1,7 @@
+C:\Users\Vampirin\OneDrive\Documents\UDEMY PROJECTS\C# Master\MyFirstApp\MyFirstApp\bin\Debug\MyFirstApp.exe.config
+C:\Users\Vampirin\OneDrive\Documents\UDEMY PROJECTS\C# Master\MyFirstApp\MyFirstApp\bin\Debug\MyFirstApp.exe
+C:\Users\Vampirin\OneDrive\Documents\UDEMY PROJECTS\C# Master\MyFirstApp\MyFirstApp\bin\Debug\MyFirstApp.pdb
+C:\Users\Vampirin\OneDrive\Documents\UDEMY PROJECTS\C# Master\MyFirstApp\MyFirstApp\obj\Debug\MyFirstApp.csprojAssemblyReference.cache
+C:\Users\Vampirin\OneDrive\Documents\UDEMY PROJECTS\C# Master\MyFirstApp\MyFirstApp\obj\Debug\MyFirstApp.csproj.CoreCompileInputs.cache
+C:\Users\Vampirin\OneDrive\Documents\UDEMY PROJECTS\C# Master\MyFirstApp\MyFirstApp\obj\Debug\MyFirstApp.exe
+C:\Users\Vampirin\OneDrive\Documents\UDEMY PROJECTS\C# Master\MyFirstApp\MyFirstApp\obj\Debug\MyFirstApp.pdb
