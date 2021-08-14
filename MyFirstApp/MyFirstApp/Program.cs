@@ -204,28 +204,176 @@ namespace MyFirstApp
             /*----------------------------------------------------*/
             /*Septimo Programa (Categoria SWITCH)*/
 
-            Console.WriteLine("Ingrese numero");
-            int numero = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Ingrese numero");
+            //int numero = int.Parse(Console.ReadLine());
 
-            switch (numero)
+            //switch (numero)
+            //{
+            //    case 1: Console.WriteLine("Lunes"); break;
+            //    case 2: Console.WriteLine("Martes"); break;
+            //    case 3: Console.WriteLine("Miercoles"); break;
+            //    case 4: Console.WriteLine("Jueves"); break;
+            //    case 5: Console.WriteLine("Viernes"); break;
+            //    case 6: Console.WriteLine("Sabado"); break;
+            //    case 7: Console.WriteLine("Domingo"); break;
+            //    default: Console.WriteLine("Error, ingrese un dato valido"); break;
+            //}
+
+            //Console.ReadLine();
+            /*----------------------------------------------------*/
+            /*Octavo Programa (Categoria SWITCH)*/
+
+            //Console.WriteLine("Ingrese sueldo");
+            //int sueldo = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Ingrese Categoria");
+            //char categoria = char.Parse(Console.ReadLine());
+            //int total,aumento;
+            //switch (categoria)
+            //{
+            //    case 'A': aumento = 500 ; break;
+            //    case 'B': aumento = 300; break;
+            //    case 'C': aumento = 100; break;
+            //    default: aumento = 10; break;
+
+            //}
+
+            //total = sueldo + aumento;
+            //Console.WriteLine("El sueldo total es: "+total);
+
+            //Console.ReadLine();
+            /*----------------------------------------------------*/
+
+            /*Tarea2*/
+            //Console.WriteLine("Ingrese #");
+            //int num = int.Parse(Console.ReadLine());
+            //if (num % 5 == 0)
+            //    Console.WriteLine("El " + num + " es muliplo de 5.");
+            //else
+            //    Console.WriteLine("El " + num + " no es muliplo de 5.");
+            //Console.ReadLine();
+
+            /*-----------------------*/
+            //Console.WriteLine("Ingrese las horas laboradas del trabajador");
+            //int horas = int.Parse(Console.ReadLine());
+            //int total;
+            //if (horas < 30)
+            //    Console.WriteLine("El trabajador ganaria: " + horas * 10);
+            //else if (horas >= 30)
+            //    Console.WriteLine("El trabajador ganaria: " + horas * 20);
+
+            //Console.ReadLine();
+            /*-----------------------*/
+            //Console.WriteLine("Ingrese primer #");
+            //int num1 = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Ingrese segundo #");
+            //int num2 = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Ingrese operacion a realizar");
+            //char simbolo = char.Parse(Console.ReadLine());
+
+            //switch (simbolo)
+            //{
+            //    case '+': Console.WriteLine("El resultado es: " + (num1 + num2)); break;
+            //    case '-': Console.WriteLine("El resultado es: " + (num1 - num2)); break;
+            //    case '*': Console.WriteLine("El resultado es: " + (num1 * num2)); break;
+            //    case '/': Console.WriteLine("El resultado es: " + (num1 / num2)); break;
+            //    default: Console.WriteLine("Ingrese un simbolo permitido (+, -, *, /)");break;
+            //}
+
+            //Console.ReadLine();
+            /*----------------------------------------------------*/
+
+            /*Acumuladores*/
+            //int c = 21; 
+            //c--;
+            //c++;
+            //c += 10;
+            //c -= 10;
+            //Console.WriteLine("El valor de C es: " + c);
+            //Console.ReadLine();
+
+            /*----------------------------------------------------*/
+            /*Estrucuturas repetitivas*/
+            //WHILE
+
+            /*
+             while(condicion){
+                --INSTRUCCIONES 
+            }
+             */
+            //int i = 1;
+            //int total = 0;
+            //while (i<=5)
+            //{
+            //    Console.WriteLine("Ingrese # "+i);
+            //    int num = int.Parse(Console.ReadLine());
+            //    total += num;
+            //    i++;
+            //}
+            //Console.WriteLine("La suma es: "+total);
+            //Console.ReadLine();
+            /*----------------------------------------------------*/
+            /*Tarea 3*/
+
+            //int i = 19;
+            //while (i<=37)
+            //{
+            //    Console.WriteLine(i);
+            //    i +=2;
+            //}
+            //Console.ReadLine();
+            /*-----------------------*/
+
+            //float result;
+            //int num,i = 1;
+            //do
+            //{
+            //    Console.WriteLine("Ingrese #");
+            //    num= int.Parse(Console.ReadLine());
+            //    result = num / 2;
+            //    Console.WritesLine("Resultado: "+result);
+            //    i++;
+            //}
+            //while (num >= 0 );
+            //Console.WriteLine("Finalizado");
+            //Console.ReadLine();
+            /*-----------------------*/
+            //int total = 0;
+            //for (int i = 1; i <= 5; i++)
+            //{
+            //    total += i;
+            //}
+            //Console.WriteLine("El total es: " + total);
+            //Console.ReadLine();
+            /*-----------------------*/
+            /*Arrays*/
+
+            int[] numeros = { 1, 51, 1, 5187, 4, 45, 4, 78, 84, 5 };
+
+            //for (int i = 0; i < numeros.Length; i++)
+            //{
+            //    Console.WriteLine(numeros[i]);
+            //}
+
+            foreach (int num in numeros)
             {
-                case 1: Console.WriteLine("Lunes"); break;
-                case 2: Console.WriteLine("Martes"); break;
-                case 3: Console.WriteLine("Miercoles"); break;
-                case 4: Console.WriteLine("Jueves"); break;
-                case 5: Console.WriteLine("Viernes"); break;
-                case 6: Console.WriteLine("Sabado"); break;
-                case 7: Console.WriteLine("Domingo"); break;
-                default: Console.WriteLine("Error, ingrese un dato valido"); break;
+                Console.WriteLine(num);
             }
 
             Console.ReadLine();
             /*----------------------------------------------------*/
-            /*----------------------------------------------------*/
+
             /*----------------------------------------------------*/
             /*----------------------------------------------------*/
 
-
+            /*----------------------------------------------------*/
+            /*----------------------------------------------------*/
+            /*----------------------------------------------------*/
+            /*----------------------------------------------------*/
+            /*----------------------------------------------------*/
+            /*----------------------------------------------------*/
+            /*----------------------------------------------------*/
+            /*----------------------------------------------------*/
+            /*----------------------------------------------------*/
             //Console.WriteLine();
             //Console.ReadLine();
         }
